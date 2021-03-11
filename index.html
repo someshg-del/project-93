@@ -14,26 +14,34 @@
 	<script src="main.js"></script>
 </head>
 
-<body>
-	<span><img src="bg.jpg"></span>
 
-<span>
-	<h1 class="header">
-		Let's Chat
+<body>
+
+	<span> 
+		<img id="loginimg" src="bg.jpg">
+	</span>
+	
+	
+	<section id="log">
+		<h1 class="header"> 
+			Let's Chat <sup>
+	     
+		</sup>
 	</h1>
-	<div class="col-lg-4 col-md-6 col-sm-6 col-xs-11 login_div">
-		<img src="logo.png" class="logo">
-		<h3>See what is happening in the world right now</h3>
-		<h4>Join Let's Chat today</h4>
-		<div class="form-group">
-			<label>User Name:</label>
-			<input id="username" type="text" class="form-control" placeholder="user name">
+	<br>
+		<div class="col-lg-11 col-md-6 col-sm-6 col-xs-11 login_div">
+		<img src="download.jpg" class="logo">
+			<h3 >See what is happening in the world right now</h3>
+			<h4 >Join Let's Chat today</h4>
+			<div class="form-group">
+			  <label >User Name:</label>
+			 <input id="username" type="text" class="form-control" placeholder="user name">
+			</div>
+			<button onclick="adduser()"id="login_button"  class="btn btn-primary">Log in</button>
+			<br><br>
 		</div>
-		<button onclick="adduser()" id="login_button" class="btn btn-primary">Log in</button>
-		<br><br>
-	</div>
-</span>
-</body>
+	</section> 
+	</body>
 
 
 </html>
